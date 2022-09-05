@@ -24,6 +24,13 @@ jobs:
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
+      
+      - name: Migrate DB
+        run: |
+          dotnet tool install --global dotnet-ef
+          dotnet tool restore
+          dotnet ef database update -c AppDbContext -p phase3-api2.Infrastructure/phase3-api2.Infrastructure.csproj -s phase3-api2.Ui/phase3-api2.Ui.csproj
+          
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp

@@ -48,12 +48,6 @@ builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(connectionString
 
 var app = builder.Build();
 
-//migrate database
-using var scope = app.Services.CreateScope();
-
-using var appContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-
-appContext.Database.Migrate();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
