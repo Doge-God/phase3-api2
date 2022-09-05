@@ -68,3 +68,5 @@ C:\Projects\phase3-api2\phase3-api2.Ui\bin\Debug\net6.0\Microsoft.EntityFramewor
 C:\Projects\phase3-api2\phase3-api2.Ui\bin\Debug\net6.0\FluentValidation.dll
 C:\Projects\phase3-api2\phase3-api2.Ui\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Projects\phase3-api2\phase3-api2.Ui\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Projects\phase3-api2\phase3-api2.Ui\bin\Debug\net6.0\phase3-api2.Ui.xml
+C:\Projects\phase3-api2\phase3-api2.Ui\obj\Debug\net6.0\phase3-api2.Ui.xml

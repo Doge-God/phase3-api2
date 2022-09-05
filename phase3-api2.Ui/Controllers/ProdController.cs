@@ -16,6 +16,9 @@ namespace phase3_api2.Ui.Controllers
             _prodService = prodService;
         }
 
+        /// <summary>
+        /// Get a list of all information stored.
+        /// </summary>
         [HttpGet]
         [Route("getAllProdEntries")]
         public ActionResult<List<Prod>> GetAllProdInfo()
@@ -23,6 +26,12 @@ namespace phase3_api2.Ui.Controllers
             return Ok(_prodService.GetProdList());
         }
 
+        /// <summary>
+        /// Add a new entry about a product being stored, must have a name and expiry date.
+        /// </summary>
+        /// <remarks>
+        /// Response contain information of the entry stored, NOTE: id might be useful for locating this entry later.
+        /// </remarks>
         [HttpPost]
         [Route("addProdEntryStore")]
         public ActionResult<Prod> addProdEntryStore(CreateProdDto createDto)
@@ -40,6 +49,10 @@ namespace phase3_api2.Ui.Controllers
                
         }
 
+        /// <summary>
+        /// Add information about the removal of a product stored (located with Id), must state if it was wasted.
+        /// </summary>
+        /// 
         [HttpPut]
         [Route("addProdEntryTake")]
         public ActionResult<Prod> addProdEntryTake(TakeProdDto takeDto)

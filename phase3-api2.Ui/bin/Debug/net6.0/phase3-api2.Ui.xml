@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>phase3-api2.Ui</name>
+    </assembly>
+    <members>
+        <member name="M:phase3_api2.Ui.Controllers.ProdController.GetAllProdInfo">
+            <summary>
+            Get a list of all information stored.
+            </summary>
+        </member>
+        <member name="M:phase3_api2.Ui.Controllers.ProdController.addProdEntryStore(phase3_api2.Domain.DTO.CreateProdDto)">
+            <summary>
+            Add a new entry about a product being stored, must have a name and expiry date.
+            </summary>
+            <remarks>
+            Response contain information of the entry stored, NOTE: id might be useful for locating this entry later.
+            </remarks>
+        </member>
+        <member name="M:phase3_api2.Ui.Controllers.ProdController.addProdEntryTake(phase3_api2.Domain.DTO.TakeProdDto)">
+            <summary>
+            Add information about the removal of a product stored (located with Id), must state if it was wasted.
+            </summary>
+            
+        </member>
+    </members>
+</doc>
