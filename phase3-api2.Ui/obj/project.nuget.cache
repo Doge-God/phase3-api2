@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ddGnmenBfc9TDHbnE8HqtIEMaEEV5IVzkovZfi9okl5gZW1/0mMGSIU7ivKw1L74B8LsHcjpwXNFTj7+mTW0IQ==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\phase3-api2\\phase3-api2.Ui\\phase3-api2.Ui.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Futia\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Futia\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Futia\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Futia\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Futia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Futia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
