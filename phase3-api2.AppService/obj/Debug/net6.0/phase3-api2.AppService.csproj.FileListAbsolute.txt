@@ -1,0 +1,17 @@
+C:\Projects\phase3-api2\phase3-api2.AppService\obj\Debug\net6.0\phase3-api2.AppService.csproj.AssemblyReference.cache
+C:\Projects\phase3-api2\phase3-api2.AppService\obj\Debug\net6.0\phase3-api2.AppService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\phase3-api2\phase3-api2.AppService\obj\Debug\net6.0\phase3-api2.AppService.AssemblyInfoInputs.cache
+C:\Projects\phase3-api2\phase3-api2.AppService\obj\Debug\net6.0\phase3-api2.AppService.AssemblyInfo.cs
+C:\Projects\phase3-api2\phase3-api2.AppService\obj\Debug\net6.0\phase3-api2.AppService.csproj.CoreCompileInputs.cache
+C:\Projects\phase3-api2\phase3-api2.AppService\bin\Debug\net6.0\phase3-api2.AppService.deps.json
+C:\Projects\phase3-api2\phase3-api2.AppService\bin\Debug\net6.0\phase3-api2.AppService.dll
+C:\Projects\phase3-api2\phase3-api2.AppService\bin\Debug\net6.0\phase3-api2.AppService.pdb
+C:\Projects\phase3-api2\phase3-api2.AppService\bin\Debug\net6.0\phase3-api2.Domain.dll
+C:\Projects\phase3-api2\phase3-api2.AppService\bin\Debug\net6.0\phase3-api2.Infrastructure.dll
+C:\Projects\phase3-api2\phase3-api2.AppService\bin\Debug\net6.0\phase3-api2.Domain.pdb
+C:\Projects\phase3-api2\phase3-api2.AppService\bin\Debug\net6.0\phase3-api2.Infrastructure.pdb
+C:\Projects\phase3-api2\phase3-api2.AppService\obj\Debug\net6.0\phase3-api2.AppService.csproj.CopyComplete
+C:\Projects\phase3-api2\phase3-api2.AppService\obj\Debug\net6.0\phase3-api2.AppService.dll
+C:\Projects\phase3-api2\phase3-api2.AppService\obj\Debug\net6.0\refint\phase3-api2.AppService.dll
+C:\Projects\phase3-api2\phase3-api2.AppService\obj\Debug\net6.0\phase3-api2.AppService.pdb
+C:\Projects\phase3-api2\phase3-api2.AppService\obj\Debug\net6.0\ref\phase3-api2.AppService.dll

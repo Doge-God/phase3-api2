@@ -1,0 +1,12 @@
+C:\Projects\phase3-api2\phase3-api2.Domain\bin\Debug\net6.0\phase3-api2.Domain.deps.json
+C:\Projects\phase3-api2\phase3-api2.Domain\bin\Debug\net6.0\phase3-api2.Domain.dll
+C:\Projects\phase3-api2\phase3-api2.Domain\bin\Debug\net6.0\phase3-api2.Domain.pdb
+C:\Projects\phase3-api2\phase3-api2.Domain\obj\Debug\net6.0\phase3-api2.Domain.csproj.AssemblyReference.cache
+C:\Projects\phase3-api2\phase3-api2.Domain\obj\Debug\net6.0\phase3-api2.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\phase3-api2\phase3-api2.Domain\obj\Debug\net6.0\phase3-api2.Domain.AssemblyInfoInputs.cache
+C:\Projects\phase3-api2\phase3-api2.Domain\obj\Debug\net6.0\phase3-api2.Domain.AssemblyInfo.cs
+C:\Projects\phase3-api2\phase3-api2.Domain\obj\Debug\net6.0\phase3-api2.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\phase3-api2\phase3-api2.Domain\obj\Debug\net6.0\phase3-api2.Domain.dll
+C:\Projects\phase3-api2\phase3-api2.Domain\obj\Debug\net6.0\refint\phase3-api2.Domain.dll
+C:\Projects\phase3-api2\phase3-api2.Domain\obj\Debug\net6.0\phase3-api2.Domain.pdb
+C:\Projects\phase3-api2\phase3-api2.Domain\obj\Debug\net6.0\ref\phase3-api2.Domain.dll
