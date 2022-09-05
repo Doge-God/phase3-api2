@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KF98R3f3aJeQuvnt9kNL/lpHYVijSUBEPO+vdFg3gPj3tWfChWSd6/Xot98W1hCIZ/5DtM5MGebcFML3cdcbug==",
+  "dgSpecHash": "MSSYsPaPAWCrgB90leNGk56F0b/NM1F1c7zwjJRqPSbHSw5poHrAE8KDiQ18cxeNT1AKbJ6oTnFAq6jd3ITzBw==",
   "success": true,
   "projectFilePath": "C:\\Projects\\phase3-api2\\phase3-api2.Domain\\phase3-api2.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Futia\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\Futia\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "C:\\Users\\Futia\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.8\\microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
     "C:\\Users\\Futia\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.8\\microsoft.entityframeworkcore.analyzers.6.0.8.nupkg.sha512",

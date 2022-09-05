@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DaqgUiXBhMEIY9lEICG4i/rzK7bj7MOxLszdCNO4RinYvkKAxEgBj72HyoqbO64ANPsrZe+hTF1Q//fk/IaP7w==",
+  "dgSpecHash": "xkAEYvbMpfF58Z3FfknRbFNybRxDAAXzF9dY2AUtu0qJXCJflfjROVixCFUfTJU12lyM/9JRq9n2/wQB+ON9nw==",
   "success": true,
   "projectFilePath": "C:\\Projects\\phase3-api2\\phase3-api2.Ui\\phase3-api2.Ui.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Futia\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\Futia\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.1\\fluentvalidation.aspnetcore.11.2.1.nupkg.sha512",
+    "C:\\Users\\Futia\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.0\\fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
     "C:\\Users\\Futia\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Futia\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Futia\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

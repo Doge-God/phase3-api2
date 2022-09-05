@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "af4evzkfATDrUeeC3yHTtDMl1OC04/Nl04csz7/qqk6DMVfh+hvoIQNRoA7bdLsOzDMaUkeSYPr6rfD4RyuY5w==",
+  "dgSpecHash": "qAZBj2Nvb9uCukfyv0GfsPgoTBpgzfkckyv9LtC0ylkZdRYoCWzJxkdcK8zglrnIEWLuhVyKJ+34hd5fFfN5Qg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\phase3-api2\\phase3-api2.Infrastructure\\phase3-api2.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Futia\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\Futia\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Futia\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Futia\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

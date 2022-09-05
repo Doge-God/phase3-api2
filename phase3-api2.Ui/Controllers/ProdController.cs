@@ -27,23 +27,34 @@ namespace phase3_api2.Ui.Controllers
         [Route("addProdEntryStore")]
         public ActionResult<Prod> addProdEntryStore(CreateProdDto createDto)
         {
-            Prod addedProd = _prodService.AddProd(createDto);
-
-            return Ok(addedProd);   
+            try
+            {
+                Prod addedProd = _prodService.AddProd(createDto);
+                return Ok(addedProd);
+            }
+            
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+               
         }
 
         [HttpPut]
         [Route("addProdEntryTake")]
         public ActionResult<Prod> addProdEntryTake(TakeProdDto takeDto)
         {
-            Prod modedProd = _prodService.TakeProd(takeDto);
-            if (modedProd == null)
+            try
             {
-                return BadRequest("No product with given ID");
-            } else
-            {
+                Prod modedProd = _prodService.TakeProd(takeDto);
                 return Ok(modedProd);
+            } 
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
+            
+
         }
     }
 }

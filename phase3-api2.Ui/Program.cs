@@ -1,6 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using phase3_api2.AppService;
 using phase3_api2.Infrastructure;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using phase3_api2.Domain.DTO;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +17,11 @@ builder.Services.AddSwaggerGen();
 //add custom services
 builder.Services.AddScoped<IProdService, ProdService>();
 builder.Services.AddScoped<IProdRepository, ProdRepository>();
+
+//add fluent validation
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddScoped<IValidator<CreateProdDto>, CreateProdDtoValidator>();
+builder.Services.AddScoped<IValidator<TakeProdDto>, TakeProdDtoValidator>();
 
 //add db context
 var connectionString = builder.Configuration.GetConnectionString("phase3-local2");

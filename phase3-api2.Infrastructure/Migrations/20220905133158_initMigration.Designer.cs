@@ -12,7 +12,7 @@ using phase3_api2.Infrastructure;
 namespace phase3_api2.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220905092410_initMigration")]
+    [Migration("20220905133158_initMigration")]
     partial class initMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

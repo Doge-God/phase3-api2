@@ -18,11 +18,7 @@ namespace phase3_api2.Infrastructure
             //Find prod with id 
             Prod prod = _appDbContext.Prods.SingleOrDefault(p => p.Id == Id);
 
-            //If not found raise exception
-            if (prod == null)
-            {
-                throw new KeyNotFoundException("Prod with Id not found.");
-            }
+            //**COULD RETURN NULL
             return prod;
         }
 
@@ -40,9 +36,21 @@ namespace phase3_api2.Infrastructure
 
         public Prod UpdateProd(Prod prod)
         {
-            Prod updatedProd = _appDbContext.Prods.Update(prod).Entity;
+            Prod dbProd = _appDbContext.Prods.Find(prod.Id);
+
+            if (dbProd == null)
+            {
+                return null;
+            }
+
+            dbProd.Name = prod.Name;
+            dbProd.TimeStored = prod.TimeStored;
+            dbProd.TimeExpire = prod.TimeExpire;
+            dbProd.isWasted = prod.isWasted;
+            dbProd.TimeTaken = prod.TimeTaken;
+
             SaveChanges();
-            return updatedProd;
+            return dbProd;
         }
 
         public Prod DeleteProd(Prod prod)
