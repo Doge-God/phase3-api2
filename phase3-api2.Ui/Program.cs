@@ -42,7 +42,7 @@ builder.Services.AddScoped<IValidator<CreateProdDto>, CreateProdDtoValidator>();
 builder.Services.AddScoped<IValidator<TakeProdDto>, TakeProdDtoValidator>();
 
 //add db context
-var connectionString = builder.Configuration.GetConnectionString("phase3-local2");
+var connectionString = builder.Configuration.GetConnectionString("phase3-azure");
 builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(connectionString));
 
 var app = builder.Build();
