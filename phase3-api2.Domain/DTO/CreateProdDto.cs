@@ -15,7 +15,6 @@ namespace phase3_api2.Domain.DTO
         {
             RuleFor(p => p.Name).NotEmpty().WithMessage("Name must not be empty.");
             RuleFor(p => p.TimeExpire).NotEmpty().WithMessage("Expire time must not be empty.");
-            //RuleFor(p => p.TimeExpire.GetType()).Equal(typeof(DateTime));
         }
     }
 }
