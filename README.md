@@ -15,6 +15,8 @@ The data collected is publicly avaliable and anonymous for research purposes.
 ## Usage
 Base API URL: https://fridgeloggerapi.azurewebsites.net
 
+**All request bodies need to be JSON**
+
 ### Get all stored data
 
 GET /getAllProdEntries
