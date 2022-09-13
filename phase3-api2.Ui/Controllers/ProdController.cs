@@ -64,7 +64,7 @@ namespace phase3_api2.Ui.Controllers
             } 
             catch(Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest("{\"status\":400,\"errors\":{\"id\":[\""+ex.Message+ "\"]}}");
             }
             
 

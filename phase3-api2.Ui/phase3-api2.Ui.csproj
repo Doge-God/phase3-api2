@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\phase3-api2.AppService\phase3-api2.AppService.csproj" />
+    <ProjectReference Include="..\phase3-api2.Infrastructure\phase3-api2.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

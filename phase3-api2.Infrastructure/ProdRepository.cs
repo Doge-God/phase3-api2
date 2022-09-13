@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using phase3_api2.Domain.Model;
+using phase3_api2.Domain.Interface;
 
 namespace phase3_api2.Infrastructure
 {

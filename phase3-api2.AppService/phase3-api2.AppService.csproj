@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\phase3-api2.Domain\phase3-api2.Domain.csproj" />
-    <ProjectReference Include="..\phase3-api2.Infrastructure\phase3-api2.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

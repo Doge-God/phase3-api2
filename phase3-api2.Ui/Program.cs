@@ -1,6 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using phase3_api2.AppService;
+using phase3_api2.Domain.Interface;
 using phase3_api2.Infrastructure;
+
+
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using phase3_api2.Domain.DTO;

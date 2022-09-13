@@ -1,7 +1,7 @@
 ﻿using FluentValidation.Results;
 using phase3_api2.Domain.DTO;
 using phase3_api2.Domain.Model;
-using phase3_api2.Infrastructure;
+using phase3_api2.Domain.Interface;
 
 namespace phase3_api2.AppService
 {

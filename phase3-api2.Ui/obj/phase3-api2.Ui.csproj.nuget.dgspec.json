@@ -30,9 +30,6 @@
             "projectReferences": {
               "C:\\Projects\\phase3-api2\\phase3-api2.Domain\\phase3-api2.Domain.csproj": {
                 "projectPath": "C:\\Projects\\phase3-api2\\phase3-api2.Domain\\phase3-api2.Domain.csproj"
-              },
-              "C:\\Projects\\phase3-api2\\phase3-api2.Infrastructure\\phase3-api2.Infrastructure.csproj": {
-                "projectPath": "C:\\Projects\\phase3-api2\\phase3-api2.Infrastructure\\phase3-api2.Infrastructure.csproj"
               }
             }
           }
@@ -235,6 +232,9 @@
             "projectReferences": {
               "C:\\Projects\\phase3-api2\\phase3-api2.AppService\\phase3-api2.AppService.csproj": {
                 "projectPath": "C:\\Projects\\phase3-api2\\phase3-api2.AppService\\phase3-api2.AppService.csproj"
+              },
+              "C:\\Projects\\phase3-api2\\phase3-api2.Infrastructure\\phase3-api2.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\phase3-api2\\phase3-api2.Infrastructure\\phase3-api2.Infrastructure.csproj"
               }
             }
           }

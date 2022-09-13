@@ -9,4 +9,4 @@ namespace phase3_api2.Infrastructure
 
         public DbSet<Prod> Prods { get; set; }
     }
-}
+} 

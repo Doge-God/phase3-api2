@@ -736,8 +736,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "phase3-api2.Domain": "1.0.0",
-          "phase3-api2.Infrastructure": "1.0.0"
+          "phase3-api2.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/phase3-api2.AppService.dll": {}
@@ -2174,7 +2173,8 @@
       "FluentValidation.AspNetCore >= 11.2.1",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.8",
       "Swashbuckle.AspNetCore >= 6.2.3",
-      "phase3-api2.AppService >= 1.0.0"
+      "phase3-api2.AppService >= 1.0.0",
+      "phase3-api2.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2206,6 +2206,9 @@
           "projectReferences": {
             "C:\\Projects\\phase3-api2\\phase3-api2.AppService\\phase3-api2.AppService.csproj": {
               "projectPath": "C:\\Projects\\phase3-api2\\phase3-api2.AppService\\phase3-api2.AppService.csproj"
+            },
+            "C:\\Projects\\phase3-api2\\phase3-api2.Infrastructure\\phase3-api2.Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\phase3-api2\\phase3-api2.Infrastructure\\phase3-api2.Infrastructure.csproj"
             }
           }
         }

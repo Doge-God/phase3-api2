@@ -11,7 +11,8 @@
           "FluentValidation.AspNetCore": "11.2.1",
           "Microsoft.EntityFrameworkCore.Design": "6.0.8",
           "Swashbuckle.AspNetCore": "6.2.3",
-          "phase3-api2.AppService": "1.0.0"
+          "phase3-api2.AppService": "1.0.0",
+          "phase3-api2.Infrastructure": "1.0.0"
         },
         "runtime": {
           "phase3-api2.Ui.dll": {}
@@ -510,8 +511,7 @@
       },
       "phase3-api2.AppService/1.0.0": {
         "dependencies": {
-          "phase3-api2.Domain": "1.0.0",
-          "phase3-api2.Infrastructure": "1.0.0"
+          "phase3-api2.Domain": "1.0.0"
         },
         "runtime": {
           "phase3-api2.AppService.dll": {}
