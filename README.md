@@ -35,6 +35,10 @@ Example response:
 ]
 ```
 
+Try example requests in Postman:
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/23182448-1345c61c-b4ec-4d4c-8cd4-8b0f6b72af69?action=collection%2Ffork&collection-url=entityId%3D23182448-1345c61c-b4ec-4d4c-8cd4-8b0f6b72af69%26entityType%3Dcollection%26workspaceId%3Dc1607ba7-d6ac-4d5c-a739-1ad801e365cb)
+
 ### Log a new item that has been put into storage
 
 POST /addProdEntryStore
@@ -63,6 +67,10 @@ Example response:
   "timeTaken": null
 }
 ```
+Try example requests in Postman
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/23182448-339a421d-ccce-4ca7-b601-ef0dd4a4d37d?action=collection%2Ffork&collection-url=entityId%3D23182448-339a421d-ccce-4ca7-b601-ef0dd4a4d37d%26entityType%3Dcollection%26workspaceId%3Dc1607ba7-d6ac-4d5c-a739-1ad801e365cb)
+
 
 ### Log a an item being taken out of storage
 
@@ -89,3 +97,7 @@ Example response:
   "timeTaken": "2022-09-15T09:20:37.1101"
 }
 ```
+
+Try example requests in Postman:
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/23182448-090b9b1c-c07c-4d8f-a20c-e6d3f70edcbc?action=collection%2Ffork&collection-url=entityId%3D23182448-090b9b1c-c07c-4d8f-a20c-e6d3f70edcbc%26entityType%3Dcollection%26workspaceId%3Dc1607ba7-d6ac-4d5c-a739-1ad801e365cb)
