@@ -1,4 +1,5 @@
-# phase3-api2: FridgeLogger
+# FridgeLogger
+### Currently OFFLINE due to costs.
 
 This API is meant to be used with food storing IoT devices to collect data on items put in/ taken out.
 
